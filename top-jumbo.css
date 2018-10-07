@@ -1,0 +1,247 @@
+#top-jumbo{
+  padding: 0 0 400px;
+  background: #fcfcfc; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #fcfcfc 0%, #fcfcfc 31%, #fcfcfc 31%, #ba9ace 73%, #ba9ace 73%, #d885db 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #fcfcfc 0%,#fcfcfc 31%,#fcfcfc 31%,#ba9ace 73%,#ba9ace 73%,#d885db 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #fcfcfc 0%,#fcfcfc 31%,#fcfcfc 31%,#ba9ace 73%,#ba9ace 73%,#d885db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#top-jumbo::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#top-jumbo .left-side {
+  width: 45%;
+  display: inline-block;
+  float: left;
+}
+
+#top-jumbo .left-side .large-number {
+  font-size: 300px;
+  font-weight: 700;
+  opacity: .1;
+  color: #4C44C1;
+  position: relative;
+  left: -22px;
+  top: -51px;
+  z-index: 1;
+}
+
+#top-jumbo .left-side .info-container {
+  position: relative;
+  top: -198px;
+}
+
+#top-jumbo .left-side .info-container h1 {
+  font-size: 4.5rem;
+  color: #6066F2;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+#top-jumbo .left-side .info-container p {
+  font-size: 1.2rem;
+  font-weight:  300;
+  line-height: 1.8;
+  color: #AAACAF;
+}
+
+#top-jumbo .left-side .info-container .email-area {
+  background: white;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px;
+  -webkit-box-shadow: 0px 9px 79px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 9px 79px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 9px 79px 0px rgba(0,0,0,0.3);
+  margin-top: 10px;
+}
+
+#top-jumbo .left-side .info-container .email-area .fa {
+  font-size: 2rem;
+  position: relative;
+  top: 4px;
+  margin-left: 15px;
+  color: #D5E2EA;
+}
+
+#top-jumbo .left-side .info-container .email-area input[type="email"] {
+  background: white;
+  border: none;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  width: 200px;
+}
+
+#top-jumbo .left-side .info-container .email-area button {
+  background: #6066F2;
+  padding: 20px 50px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+
+
+#top-jumbo .right-side {
+  width: 55%;
+  display: inline-block;
+  float: left;
+}
+
+#top-jumbo .right-side img {
+  width: 100%;
+}
+
+/*Laptops Devices */
+@media only screen and (max-width: 1215px) {
+    #top-jumbo .left-side .info-container .email-area {
+      width: 100%;
+}
+
+    #top-jumbo .left-side .info-container h1 {
+      font-size: 3.5rem;
+
+}
+
+    #top-jumbo .left-side .info-container .email-area .fa {
+      position: relative;
+      top: 14px;
+      margin-left: 0;
+      float: left;
+      width: 15%;
+      text-align: center;
+  }
+    #top-jumbo .left-side .info-container .email-area input[type="email"] {
+      position: relative;
+      top: 12px;
+      width: 50%;
+      float: left;
+  }
+    #top-jumbo .left-side .info-container .email-area button {
+    background: #6066F2;
+    padding: 20px 0px;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+  }
+
+}
+
+/*Tablets Devices */
+@media only screen and (max-width: 1023px) {
+#top-jumbo {
+    padding: 0 0 300px;
+
+}
+#top-jumbo .left-side {
+    width: 40%;
+  }
+#top-jumbo .left-side .large-number {
+    font-size: 250px;
+}
+#top-jumbo .left-side .info-container {
+    position: relative;
+    top: -173px;
+}
+
+#top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+}
+
+#top-jumbo .left-side .info-container h1 {
+    font-size: 3.5rem;
+
+}
+
+#top-jumbo .left-side .info-container .email-area .fa {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"] {
+    position: relative;
+    top: 12px;
+    width: 50%;
+    float: left;
+}
+#top-jumbo .left-side .info-container .email-area button {
+  background: #6066F2;
+  padding: 20px 0px;
+  font-size: 1rem;
+  width: 35%;
+  float: left;
+}
+
+#top-jumbo .right-side {
+    width: 60%;
+}
+#top-jumbo .right-side img {
+    position: relative;
+    top: 19px;
+  }
+}
+
+/*Mobile Devices */
+@media only screen and (max-width: 767px) {
+#top-jumbo {
+  padding: 0 0 300px;
+
+}
+#top-jumbo .left-side {
+      width: 100%;
+}
+#top-jumbo .left-side .large-number {
+    font-size: 250px;
+}
+
+#top-jumbo .left-side .info-container {
+    position: relative;
+    top: -173px;
+}
+
+#top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+}
+
+#top-jumbo .left-side .info-container h1 {
+    font-size: 3.5rem;
+    transform: scale(.8);
+
+}
+
+#top-jumbo .left-side .info-container .email-area .fa {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"] {
+    position: relative;
+    top: 12px;
+    width: 50%;
+    float: left;
+}
+#top-jumbo .left-side .info-container .email-area button {
+    background: #6066F2;
+    padding: 20px 0px;
+    font-size: 1rem;
+    width: 35%;
+    float: left;
+}
+#top-jumbo .right-side {
+    width: 100%;
+}
+#top-jumbo .right-side img {
+  display: none;
+  }
+}
